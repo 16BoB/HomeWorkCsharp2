@@ -11,7 +11,7 @@ void FindDate (int arg) {
     {
         Console.WriteLine("This day is a day off");
     }
-    else if (arg == 0 || arg > 7) {
+    else if (arg <= 0 || arg > 7) {
         Console.WriteLine("There is no such day in the week");
     }
     else {
